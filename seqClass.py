@@ -27,4 +27,4 @@ if args.motif:
     if re.search(args.motif, args.seq):
         print("TESTING FOUND")
     else:
-        print("NOT FOUND")
+        print("TESTING NOT FOUND")
